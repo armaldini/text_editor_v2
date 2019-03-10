@@ -1,4 +1,4 @@
-#Text Editor v2
+# Text Editor v2
 
 To use this editor you can select words (or phrases) and change the font color, make it bold, underlined or italic, using the controls located in the top bar.
 
