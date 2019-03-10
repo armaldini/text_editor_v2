@@ -1,0 +1,82 @@
+body{
+	background-color: #6495ed;
+	margin: 0px;
+	padding: 0px;
+}
+#wrapper{
+	background-color: #FFF;
+	width: 800px;
+	height: 100vh;
+	margin: 0px auto;
+}
+
+#page_title{
+	margin: 0px;
+	padding: 20px;
+	text-align: center;
+	font-family: verdana;
+}
+
+#editor_controls{
+	background-color: #d9d9d9;
+	padding: 5px;
+	align-items: center;
+}
+
+.editor_button{
+	width: 25px;
+	height: 25px;
+}
+
+#bold_button{
+	font-weight: bold;
+}
+
+#italic_button{
+	font-style: italic;
+}
+
+#underline_button{
+	text-decoration: underline;
+}
+
+#change_color_red_button{
+	color: #cc0000;
+}
+
+#change_color_blue_button{
+	color: #0066ff;
+}
+
+#change_color_green_button{
+	color: #33cc33;
+}
+
+#change_color_black_button{
+	color: #000000;
+}
+
+#highlight_button{
+	background-color: #ffff00;
+}
+
+#synonyms_bar{
+	padding: 5px;
+	background-color: #f2f2f2;
+}
+.synonym{
+	text-transform: capitalize;
+	margin: 0px 4px;
+}
+#synonyms_button{
+	margin-left: 20px;
+}
+
+.text_container{
+	margin: 0px auto;
+	padding: 10px;
+	width: 740px;
+	margin-top: 30px;
+	border: grey dotted 1px;
+	line-height: 1.5;
+}

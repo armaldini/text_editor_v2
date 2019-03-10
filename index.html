@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simple text editor</title>
+	<script type="text/javascript" src="prototype/prototype.js"></script>
+	<script type="text/javascript" src="text_editor.js"></script>
+	<script type="text/javascript" src="synonyms.js"></script>
+	<link 	rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<div id="wrapper">
+	<h1 id="page_title">Simple text editor</h1>
+	<div>
+		<div id="editor_controls">
+			<button class="editor_button" id="bold_button" onclick="bold()">B</button>
+			<button class="editor_button" id="italic_button" onclick="italic()">I</button>
+			<button class="editor_button" id="underline_button" onclick="underline()">U</button>
+			<button class="editor_button" id="change_color_red_button" onclick="change_color('#cc0000')">A</button>
+			<button class="editor_button" id="change_color_blue_button" onclick="change_color('#0066ff')">A</button>
+			<button class="editor_button" id="change_color_green_button" onclick="change_color('#33cc33')">A</button>
+			<button class="editor_button" id="change_color_black_button" onclick="change_color('#000000')">A</button>
+			<button class="editor_button" id="highlight_button" onclick="highlight()">H</button>
+			<button id="synonyms_button" onclick="show_synonyms()">Show synonyms</button>
+		</div>
+		<div id="synonyms_bar"></div>
+
+		<div id="text_div" class="text_container" contenteditable="true">If elected mayor of Chicago next month, former federal prosecutor Lori Lightfoot may pull the plug on Elon Musk’s proposal to build a high-tech rapid transit system in America’s third-largest city. In an email to The Verge, Lightfoot said her opposition to the so-called “Tesla in a tunnel” project is simple: “We don’t need O’Hare Express.” Her opponent, Cook County board president Toni Preckwinkle, says if she were elected, she would put Musk’s tunnel plan on pause.<br>Lightfoot and Preckwinkle finished first and second, respectively, in the February 26th contest to succeed current Mayor Rahm Emanuel. No one received enough votes to win outright, so the pair will face off in a final April 2nd runoff election.</div>
+
+	</div>
+</div>
+</body>
+</html>
